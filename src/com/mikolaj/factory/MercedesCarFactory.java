@@ -3,7 +3,7 @@ package com.mikolaj.factory;
 /**
  * Created by Notek on 2017-06-02.
  */
-public class mercedesCarFactory implements CarFactory{
+public class MercedesCarFactory implements CarFactory{
 
 
     @Override
