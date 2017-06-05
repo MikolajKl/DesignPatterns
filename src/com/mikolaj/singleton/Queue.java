@@ -9,7 +9,7 @@ public class Queue {
 
     private static Queue instance = null;  // zmienna prywatna statyczna
 
-    public static Queue getInstance(){
+    public static Queue getInstance(){  // statyczna metoda
         if(instance==null){
             instance = new Queue();
         }
